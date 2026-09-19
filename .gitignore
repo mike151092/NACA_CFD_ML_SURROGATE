@@ -1,0 +1,65 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# =========================
+# IDE / Editor
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Python tooling
+# =========================
+
+.pytest_cache/
+.mypy_cache/
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+
+# =========================
+# Generated ML files
+# =========================
+
+models/
+
+# =========================
+# Generated results
+# =========================
+
+results/figures/
+
+# =========================
+# OpenFOAM generated files
+# =========================
+
+openfoam/cases/*/processor*/
+
+# OpenFOAM post-processing
+openfoam/cases/*/postProcessing/
+
+# OpenFOAM time directories
+openfoam/cases/*/[1-9]*
